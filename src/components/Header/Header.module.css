@@ -1,0 +1,38 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.801);
+    z-index: 0;
+}
+
+.logo {
+    position: absolute;
+    height: 500px;
+    width: 500px;
+}
+
+.logo img {
+    height: 100%;
+    width: 100%;
+}
