@@ -1,0 +1,37 @@
+.container {
+    position: fixed;
+    width: calc(100vw - 100px);
+    height: 60px;
+    padding: 0 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    height: 60%;
+}
+
+.logo img {
+    height: 100%;
+}
+
+.bars {
+    display: none;
+    align-items: center;
+}
+
+.barsIcon {
+    font-size: 40px;
+    color: var(--yellow);
+}
+
+.links {
+    display: flex;
+    gap: 50px;
+}
+
+.linksLink {
+    text-decoration: none;
+    color: var(--grey);
+}
