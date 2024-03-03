@@ -1,0 +1,66 @@
+.container {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    background-color: var(--darkGrey);
+}
+
+.icon {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background-color: var(--black);
+}
+
+.icon svg {
+    height: 45px;
+    width: 45px;
+    color: var(--yellow);
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.servicesService {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.servicesServiceTitle {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.servicesServiceTitleText {
+    white-space: nowrap;
+    font-weight: 800;
+    color: white;
+}
+
+.servicesServiceTitleHr {
+    height: 1px;
+    width: 100%;
+    border: none;
+    background-color: var(--yellow);
+}
+
+.servicesServiceTitlePrice {
+    font-weight: 800;
+    color: var(--yellow);
+}
+
+.servicesServiceDescription {
+    font-size: 13px;
+    font-style: italic;
+    color: var(--grey);
+}

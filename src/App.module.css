@@ -2,3 +2,8 @@
     margin: 0;
     font-family: "Montserrat", sans-serif;
 }
+
+.app {
+    background-color: var(--black);
+    overflow-x: hidden;
+}
