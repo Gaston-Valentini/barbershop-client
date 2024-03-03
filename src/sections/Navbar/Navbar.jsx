@@ -1,18 +1,32 @@
 import style from "./Navbar.module.css";
 import logo from "../../assets/images/logo-two-yellow.png";
 import { LiaBarsSolid } from "react-icons/lia";
-import { useRef, useState } from "react";
+import { useRef, useState, useEffect } from "react";
 
 export default function Navbar() {
     const [isLinksActive, setIsLinksActive] = useState(false);
+    const [isTop, setIsTop] = useState(true);
     const links = useRef(null);
 
     const onBars = () => {
         setIsLinksActive(!isLinksActive);
     };
 
+    useEffect(() => {
+        const handleScroll = () => {
+            const scrollTop = window.scrollY;
+            setIsTop(scrollTop === 0);
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        return () => {
+            window.removeEventListener("scroll", handleScroll);
+        };
+    }, []);
+
     return (
-        <nav className={style.container}>
+        <nav className={`${style.container} ${!isTop ? style.navbarScrolled : ""}`}>
             <div className={style.logo}>
                 <img src={logo} alt="Logo" />
             </div>
