@@ -1,0 +1,47 @@
+.container {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    background-color: black;
+}
+
+.titles {
+    display: flex;
+    align-self: flex-end;
+}
+
+.titlesLine {
+    width: 100px;
+    height: 2px;
+    margin: 17px 0 0 30px;
+    border: none;
+    background-color: var(--yellow);
+}
+
+.titlesContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.titlesContentTitle {
+    font-size: 30px;
+    font-weight: 800;
+    color: white;
+}
+
+.titlesContentSubtitle {
+    max-width: 400px;
+    color: var(--grey);
+    text-align: right;
+}
+
+.barbers {
+    width: 100%;
+    max-width: 1500px;
+    display: flex;
+    gap: 15px;
+}

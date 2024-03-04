@@ -2,6 +2,7 @@ import style from "./App.module.css";
 import Navbar from "./sections/Navbar/Navbar";
 import Header from "./sections/Header/Header";
 import Services from "./sections/Services/Services";
+import Barbers from "./sections/Barbers/Barbers";
 
 function App() {
     return (
@@ -9,6 +10,7 @@ function App() {
             <Navbar />
             <Header />
             <Services />
+            <Barbers />
         </div>
     );
 }

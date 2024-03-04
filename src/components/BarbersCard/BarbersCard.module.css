@@ -1,0 +1,43 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.image {
+    width: 100%;
+}
+
+.image img {
+    height: 100%;
+    width: 100%;
+}
+
+.data {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.dataOccupation {
+    color: var(--grey);
+}
+
+.dataName {
+    font-size: 25px;
+    color: white;
+}
+
+.dataSocial {
+    display: flex;
+    gap: 10px;
+}
+
+.dataSocialApp {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 30px;
+    color: var(--yellow);
+}
