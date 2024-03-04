@@ -4,7 +4,6 @@
     flex-direction: column;
     align-items: center;
     gap: 50px;
-    background-color: black;
 }
 
 .titles {
@@ -44,4 +43,10 @@
     max-width: 1500px;
     display: flex;
     gap: 15px;
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 50px 20px;
+    }
 }

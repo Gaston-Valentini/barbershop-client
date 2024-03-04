@@ -11,9 +11,9 @@ export default function BarbersCard({ barber }) {
                 <div className={style.dataName}>{barber.name}</div>
                 <div className={style.dataSocial}>
                     {barber.social.map((a) => (
-                        <div className={style.dataSocialApp} key={a.app}>
+                        <a href="#" className={style.dataSocialApp} key={a.app}>
                             {a.logo}
-                        </div>
+                        </a>
                     ))}
                 </div>
             </div>

@@ -52,7 +52,7 @@ export default function Barbers() {
         },
         {
             id: 3,
-            name: "Luca Bianchi",
+            name: "Alejandro Vargas",
             occupation: "HAIR COLOR SPECIALIST",
             social: [
                 {
