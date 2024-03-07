@@ -21,7 +21,7 @@ export default function BarbersSlider({ data }) {
                 },
             },
             {
-                breakpoint: 768,
+                breakpoint: 800,
                 settings: {
                     slidesToShow: 2,
                     slidesToScroll: 1,
@@ -29,7 +29,7 @@ export default function BarbersSlider({ data }) {
                 },
             },
             {
-                breakpoint: 520,
+                breakpoint: 550,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
@@ -41,7 +41,7 @@ export default function BarbersSlider({ data }) {
     return (
         <Slider {...settings} className={style.slider}>
             {data.map((e) => (
-                <div className={style.container}>
+                <div className={style.container} key={e.id}>
                     <div className={style.image}>
                         <img src={e.image} />
                     </div>

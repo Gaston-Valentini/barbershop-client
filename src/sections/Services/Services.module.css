@@ -26,12 +26,13 @@
 }
 
 .titlesContentTitle {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
     color: white;
 }
 
 .titlesContentSubtitle {
+    font-size: 14px;
     max-width: 400px;
     color: var(--grey);
 }
@@ -45,7 +46,7 @@
 
 @media (max-width: 991px) {
     .container {
-        padding: 50px 20px;
+        padding: 50px 35px;
     }
 
     .titlesContentTitle {

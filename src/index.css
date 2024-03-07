@@ -5,12 +5,11 @@
     --grey: #cecece;
 }
 
-.slick-prev {
-    left: 0;
-    z-index: 10;
+.slick-dots li button::before {
+    margin-top: 10px;
+    color: white;
 }
 
-.slick-next {
-    right: 0;
-    z-index: 10;
+.slick-active button::before {
+    color: white;
 }

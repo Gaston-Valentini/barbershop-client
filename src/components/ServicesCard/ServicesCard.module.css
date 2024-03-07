@@ -64,3 +64,9 @@
     font-style: italic;
     color: var(--grey);
 }
+
+@media (max-width: 420px) {
+    .servicesServiceTitleText {
+        white-space: wrap;
+    }
+}

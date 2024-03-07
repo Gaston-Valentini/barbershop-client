@@ -1,5 +1,5 @@
 .container {
-    padding: 100px;
+    padding: 0px 100px 100px;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -27,13 +27,14 @@
 }
 
 .titlesContentTitle {
-    font-size: 30px;
+    font-size: 40px;
     font-weight: 800;
     color: white;
 }
 
 .titlesContentSubtitle {
     max-width: 400px;
+    font-size: 14px;
     color: var(--grey);
     text-align: right;
 }
@@ -47,6 +48,14 @@
 
 @media (max-width: 991px) {
     .container {
-        padding: 50px 20px;
+        padding: 0px 35px 50px 35px;
+    }
+    .titlesContentTitle {
+        font-size: 25px;
+    }
+
+    .barbers {
+        display: flex;
+        flex-direction: column;
     }
 }
