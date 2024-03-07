@@ -58,7 +58,7 @@ export default function Reviews() {
                         ))}
                     </Slider>
                 ) : (
-                    <p>No hay reseñas disponibles para Barbershop.</p>
+                    <p className={style.reviewsVoid}>No hay reseñas disponibles para Barbershop.</p>
                 )}
             </div>
         </section>
