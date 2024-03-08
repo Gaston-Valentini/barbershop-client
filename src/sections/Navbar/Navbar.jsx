@@ -34,19 +34,19 @@ export default function Navbar() {
                 <LiaBarsSolid className={style.barsIcon} onClick={onBars} />
             </div>
             <div className={`${style.links} ${isLinksActive ? style.linksActive : ""}`} ref={links}>
-                <a href="#" className={style.linksLink}>
+                <a href="#home" className={style.linksLink} onClick={onBars}>
                     HOME
                 </a>
-                <a href="#" className={style.linksLink}>
+                <a href="#services" className={style.linksLink} onClick={onBars}>
                     SERVICES
                 </a>
-                <a href="#" className={style.linksLink}>
+                <a href="#barbers" className={style.linksLink} onClick={onBars}>
                     BARBERS
                 </a>
-                <a href="#" className={style.linksLink}>
+                <a href="#reviews" className={style.linksLink} onClick={onBars}>
                     REVIEWS
                 </a>
-                <a href="#" className={style.linksLink}>
+                <a href="#contact" className={style.linksLink} onClick={onBars}>
                     CONTACT
                 </a>
             </div>

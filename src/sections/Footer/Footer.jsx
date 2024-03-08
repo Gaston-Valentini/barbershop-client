@@ -5,7 +5,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 export default function Footer() {
     return (
-        <footer className={style.container}>
+        <footer className={style.container} id="footer">
             <hr />
             <div className={style.footer}>
                 <div className={style.footerSection}>

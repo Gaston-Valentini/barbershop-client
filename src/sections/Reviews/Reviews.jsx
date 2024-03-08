@@ -27,7 +27,7 @@ export default function Reviews() {
     }, []);
 
     return (
-        <section className={style.container}>
+        <section className={style.container} id="reviews">
             <div className={style.titles}>
                 <hr className={style.titlesLine}></hr>
                 <div className={style.titlesContent}>

@@ -1,6 +1,8 @@
 * {
     margin: 0;
     font-family: "Montserrat", sans-serif;
+    scroll-behavior: smooth;
+    scroll-margin-top: 110px;
 }
 
 .app {

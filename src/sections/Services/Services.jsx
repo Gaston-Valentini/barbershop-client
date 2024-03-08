@@ -6,7 +6,7 @@ import { MdInvertColors } from "react-icons/md";
 
 export default function Services() {
     return (
-        <section className={style.container}>
+        <section className={style.container} id="services">
             <div className={style.titles}>
                 <hr className={style.titlesLine}></hr>
                 <div className={style.titlesContent}>

@@ -5,7 +5,7 @@ import { MdEmail, MdMessage } from "react-icons/md";
 
 export default function Contact() {
     return (
-        <section className={style.container}>
+        <section className={style.container} id="contact">
             <div className={style.titles}>
                 <div className={style.titlesContent}>
                     <div className={style.titlesContentTitle}>CONTACT US</div>

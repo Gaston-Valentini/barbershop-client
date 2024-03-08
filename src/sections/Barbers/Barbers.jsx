@@ -87,7 +87,7 @@ export default function Barbers() {
     }, []);
 
     return (
-        <section className={style.container}>
+        <section className={style.container} id="barbers">
             <div className={style.titles}>
                 <div className={style.titlesContent}>
                     <div className={style.titlesContentTitle}>OUR TEAM</div>

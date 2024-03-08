@@ -4,7 +4,7 @@ import background from "../../assets/videos/header.mp4";
 
 export default function Header() {
     return (
-        <section className={style.container}>
+        <section className={style.container} id="home">
             <div className={style.overlay}></div>
             <video src={background} muted autoPlay loop />
             <div className={style.logo}>
