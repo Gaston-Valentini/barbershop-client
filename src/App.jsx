@@ -5,8 +5,9 @@ import Services from "./sections/Services/Services";
 import Barbers from "./sections/Barbers/Barbers";
 import Reviews from "./sections/Reviews/Reviews";
 import Contact from "./sections/Contact/Contact";
+import Footer from "./sections/Footer/Footer";
 
-function App() {
+export default function App() {
     return (
         <div className={style.app}>
             <Navbar />
@@ -15,8 +16,7 @@ function App() {
             <Barbers />
             <Reviews />
             <Contact />
+            <Footer />
         </div>
     );
 }
-
-export default App;
