@@ -91,7 +91,7 @@ export default function Barbers() {
             <div className={style.titles}>
                 <div className={style.titlesContent}>
                     <div className={style.titlesContentTitle}>OUR TEAM</div>
-                    <div className={style.titlesContentSubtitle}>Discover our skilled barbers, dedicated to crafting the perfect look for you.</div>
+                    <div className={style.titlesContentSubtitle}>Discover our skilled barbers, dedicated to crafting the perfect look for you</div>
                 </div>
                 <hr className={style.titlesLine}></hr>
             </div>

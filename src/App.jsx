@@ -4,6 +4,7 @@ import Header from "./sections/Header/Header";
 import Services from "./sections/Services/Services";
 import Barbers from "./sections/Barbers/Barbers";
 import Reviews from "./sections/Reviews/Reviews";
+import Contact from "./sections/Contact/Contact";
 
 function App() {
     return (
@@ -13,6 +14,7 @@ function App() {
             <Services />
             <Barbers />
             <Reviews />
+            <Contact />
         </div>
     );
 }

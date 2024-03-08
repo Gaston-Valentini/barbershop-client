@@ -1,0 +1,135 @@
+.container {
+    padding: 0px 100px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+}
+
+.titles {
+    display: flex;
+    align-self: flex-end;
+}
+
+.titlesLine {
+    width: 100px;
+    height: 2px;
+    margin: 17px 0 0 30px;
+    border: none;
+    background-color: var(--yellow);
+}
+
+.titlesContent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 10px;
+}
+
+.titlesContentTitle {
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+}
+
+.titlesContentSubtitle {
+    max-width: 400px;
+    font-size: 14px;
+    color: var(--grey);
+    text-align: right;
+}
+
+.form {
+    width: 100%;
+    max-width: 1000px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.formMap {
+    height: 100%;
+}
+
+.formData {
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    background-color: var(--darkGrey);
+}
+
+.formDataSection {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.formDataSectionTitle {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.formDataSectionTitle svg {
+    font-size: 20px;
+    color: var(--yellow);
+}
+
+.formDataSectionTitle div {
+    color: white;
+}
+
+.formDataSectionInput,
+.formDataSectionTextarea {
+    width: calc(100% - 20px);
+    padding: 10px;
+    color: var(--grey);
+    border: none;
+    border: 2px solid var(--grey);
+    background-color: var(--darkGrey);
+}
+
+.formDataSectionInput:focus,
+.formDataSectionTextarea:focus {
+    outline: none;
+    background-color: var(--grey);
+    color: black;
+}
+
+.formDataSectionTextarea {
+    height: 70px;
+    resize: none;
+}
+
+.formDataSubmit {
+    align-self: flex-start;
+    padding: 15px 30px;
+    text-align: center;
+    font-weight: 800;
+    color: var(--grey);
+    border: 2px solid var(--yellow);
+}
+
+.formDataSubmit:hover {
+    cursor: pointer;
+    color: white;
+}
+
+@media (max-width: 991px) {
+    .container {
+        padding: 0px 35px 60px 35px;
+    }
+    .titlesContentTitle {
+        font-size: 25px;
+    }
+    .form {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .formMap {
+        height: 500px;
+    }
+}
