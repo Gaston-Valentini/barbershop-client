@@ -1,5 +1,4 @@
 import style from "./Barbers.module.css";
-import { useEffect, useState } from "react";
 import barberOne from "../../assets/images/barberOne.jpg";
 import barberTwo from "../../assets/images/barberTwo.jpg";
 import barberThree from "../../assets/images/barberThree.jpg";
@@ -7,6 +6,7 @@ import { FaInstagram, FaFacebookF } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import BarbersCard from "../../components/BarbersCard/BarbersCard";
 import BarbersSlider from "../../components/BarbersSlider/BarbersSlider";
+import { useEffect, useState } from "react";
 
 export default function Barbers() {
     const data = [

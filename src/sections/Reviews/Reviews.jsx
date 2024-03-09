@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from "react";
 import style from "./Reviews.module.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { IoStarSharp } from "react-icons/io5";
+import React, { useState, useEffect } from "react";
 
 export default function Reviews() {
     const [reviews, setReviews] = useState([]);

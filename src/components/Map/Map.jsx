@@ -1,6 +1,6 @@
 // Mapa.js
-import React, { useEffect, useState } from "react";
 import { GoogleMap, LoadScript, Marker } from "@react-google-maps/api";
+import React, { useState } from "react";
 
 export default function Map() {
     const [map, setMap] = useState(null);
