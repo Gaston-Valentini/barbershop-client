@@ -9,7 +9,7 @@ export default function Reviews() {
     const [reviews, setReviews] = useState([]);
 
     const fetchPlaceIdAndReviews = async () => {
-        await fetch("https://barbershop-server-production.up.railway.app/getReviews")
+        await fetch("https://barbershop-server-production.up.railway.app/api/getReviews")
             .then((res) => res.json())
             .then((reviews) => setReviews(reviews));
     };
