@@ -9,7 +9,7 @@ export default function Reviews() {
     const [reviews, setReviews] = useState([]);
 
     const fetchPlaceIdAndReviews = async () => {
-        await fetch("https://barbershop-server-production.up.railway.app/api/getReviews")
+        await fetch("https://barbershop-server-phi.vercel.app/reviews")
             .then((res) => res.json())
             .then((reviews) => setReviews(reviews));
     };
