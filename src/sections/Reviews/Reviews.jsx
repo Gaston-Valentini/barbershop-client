@@ -11,7 +11,7 @@ export default function Reviews() {
     const fetchPlaceIdAndReviews = async () => {
         await fetch("https://barbershop-server-phi.vercel.app/reviews")
             .then((res) => res.json())
-            .then((reviews) => setReviews(reviews));
+            .then((reviews) => setReviews(reviews.data));
     };
 
     const settings = {
